@@ -1,0 +1,39 @@
+body{
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+#tablero{
+    margin: auto;
+    width: 30vw;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#tablero>button{
+    width: 150px;
+    height: 150px;
+    max-width: 33.33%;
+    font-size: 5em;
+    color: red;
+}
+
+#textoVictoria{
+    visibility: hidden;
+    color: #80ff00;
+}
